@@ -124,7 +124,7 @@ struct workio_cmd {
 bool opt_debug = false;
 bool opt_protocol = false;
 bool opt_benchmark = false;
-int opt_throughput = 8;
+int opt_throughput = 25;
 bool want_longpoll = false;
 bool have_longpoll = false;
 bool want_stratum = false;
