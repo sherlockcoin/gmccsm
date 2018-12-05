@@ -273,7 +273,7 @@ extern "C" int scanhash_spreadx11( int thr_id, struct work *work, uint32_t max_n
 	bool is970 = !(strstr(props.name, "970") == 0);
 	bool is980 = !(strstr(props.name, "980") == 0);
 	bool is750 = !(strstr(props.name, "750") == 0);
-	if (opt_throughput == 25)
+	if (opt_throughput == 10)
 	{
 		if (strstr(props.name, "970"))
 		{
