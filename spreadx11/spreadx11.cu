@@ -275,7 +275,7 @@ extern "C" int scanhash_spreadx11( int thr_id, struct work *work, uint32_t max_n
 	cudaDeviceProp props;
 	cudaGetDeviceProperties(&props, device_map[thr_id]);
 
-	if (opt_throughput == 25)
+	if (opt_throughput == 10)
 	{
 		if (strstr(props.name, "970"))
 		{
